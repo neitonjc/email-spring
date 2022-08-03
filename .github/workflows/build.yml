@@ -36,3 +36,8 @@ jobs:
         run: | 
           cd ./email-spring 
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neitonjc_email-spring
+          
+      - name: List the target directory
+        run: | 
+          cd ./email-spring/target
+          ls -a
