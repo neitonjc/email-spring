@@ -36,3 +36,6 @@ jobs:
         run: | 
           cd ./email-spring 
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neitonjc_email-spring
+          
+      - name: Step 4 - List the current directory
+        run: ls -a
