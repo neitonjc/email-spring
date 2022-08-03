@@ -13,7 +13,7 @@
 	<artifactId>email-spring</artifactId>
 	<version>0.0.1</version>
 	<name>email-spring</name>
-	<description>Projeto exemplo uso graphql</description>
+	<description>Projeto exemplo uso spring mail</description>
 	<properties>
 		<java.version>11</java.version>
 
